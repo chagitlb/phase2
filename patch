@@ -1,0 +1,55 @@
+From 8004f9024be2fa22442ed584ab2c78aae1c7b661 Mon Sep 17 00:00:00 2001
+From: Yaron Amir <yamir@outbrain.com>
+Date: Tue, 17 Oct 2017 17:09:17 +0300
+Subject: [PATCH] Initial commit
+
+---
+ vagrant/fixScripts/exercise1-fix.sh | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/vagrant/fixScripts/exercise1-fix.sh b/vagrant/fixScripts/exercise1-fix.sh
+new file mode 100644
+index 0000000000000000000000000000000000000000..1a444f42109e76f69063d0e87d43086c0ebe7ed2
+--- /dev/null
++++ b/vagrant/fixScripts/exercise1-fix.sh
+@@ -0,0 +1,2 @@
++#!/bin/bash
++#add fix to exercise1 here
+
+From 9f7e3f10559f58b7bec45c5a57a2b6d9d00941d6 Mon Sep 17 00:00:00 2001
+From: chagitlb <61159734+chagitlb@users.noreply.github.com>
+Date: Fri, 28 Feb 2020 19:10:56 +0200
+Subject: [PATCH] fixed vagrant scripts
+
+---
+ vagrant/fixScripts/exercise1-fix.sh | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+diff --git a/vagrant/fixScripts/exercise1-fix.sh b/vagrant/fixScripts/exercise1-fix.sh
+index 1a444f42109e76f69063d0e87d43086c0ebe7ed2..e3e9ca05163b01495e08a6de2d33fa71cc91de8e 100644
+--- a/vagrant/fixScripts/exercise1-fix.sh
++++ b/vagrant/fixScripts/exercise1-fix.sh
+@@ -1,2 +1,3 @@
+ #!/bin/bash
+-#add fix to exercise1 here
++sudo ip delete 208.86.224.90
++
+
+From 5a8e61186199cd97e4da2738b17e56f835df2ef6 Mon Sep 17 00:00:00 2001
+From: chagitlb <61159734+chagitlb@users.noreply.github.com>
+Date: Fri, 28 Feb 2020 19:47:39 +0200
+Subject: [PATCH] small fix
+
+---
+ vagrant/fixScripts/exercise1-fix.sh | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/vagrant/fixScripts/exercise1-fix.sh b/vagrant/fixScripts/exercise1-fix.sh
+index e3e9ca05163b01495e08a6de2d33fa71cc91de8e..c54b864f54ff98ba697aed2b35ff1e537bf05d35 100644
+--- a/vagrant/fixScripts/exercise1-fix.sh
++++ b/vagrant/fixScripts/exercise1-fix.sh
+@@ -1,3 +1,3 @@
+ #!/bin/bash
+-sudo ip delete 208.86.224.90
++sudo ip route del 208.86.224.90
+ 

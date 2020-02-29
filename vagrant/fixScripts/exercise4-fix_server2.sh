@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo sed -i '$a\192.168.100.10 server1' /etc/hosts
+echo '192.168.100.10 server1' | sudo tee /etc/hosts -a

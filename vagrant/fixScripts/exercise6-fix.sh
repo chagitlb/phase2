@@ -7,7 +7,5 @@ if [ "$hostname"="server2" ]; then
 fi
 
 sudo scp -r $1 vagrant@$VAR1:$3
-echo "vagrant" | sudo -S command 2> /dev/null
 sudo scp -r $2 vagrant@$VAR1:$3
-echo "vagrant" | sudo -S command 2> /dev/null
 echo "1771"

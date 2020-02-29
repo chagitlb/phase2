@@ -1,9 +1,9 @@
 #!/bin/bash
-ssh-keygen
-yes 
-yes 
-yes 
+ssh-keygen -t rsa
 ssh-copy-id -i ~/.ssh/id_rsa.pub server2 
-yes "yes"
 echo "vagrant"
-yes  
+-y  Assume Yes to all queries and do not prompt
+
+
+
+

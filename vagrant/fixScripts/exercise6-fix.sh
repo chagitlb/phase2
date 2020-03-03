@@ -8,4 +8,3 @@ fi
 
 sudo scp -r $1 vagrant@$VAR1:$3
 sudo scp -r $2 vagrant@$VAR1:$3
-echo "1771"
